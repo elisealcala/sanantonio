@@ -1,0 +1,19 @@
+name: Colegio San Antonio
+type: theme
+description: "Tema del colegio san antonio"
+core: 8.x
+package: custom
+version: 1.0
+base theme: classy
+
+regions:
+  header: "Header"
+  social: "Social Buttons"
+  primary_menu: "Nav Menu"
+  breadcrumb: "Breadcrumb"
+  content: "Content"
+  sidebar_first: "Sidebar"
+  footer: "Footer"
+
+libraries:
+  - colegio/base

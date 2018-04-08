@@ -1,0 +1,23 @@
+base:
+  version: 1.x
+  css:
+    theme:
+      css/bootstrap.css: { weight: -14 }
+      css/bootstrap-theme.css: { weight: -15 }
+      css/style.css: { weight: -8 }
+      css/slick.css: { weight: -11 }
+      css/slick-theme.css: { weight: -10 }
+      css/fonts/slick.woff: { weight: -12 } 
+      css/fonts/slick.ttf: { weight: -13 }
+      css/font-awesome.min.css: { weight: -8 }
+      css/jquery.datepicker.min.css: { weight: -16}
+      http://allfont.es/allfont.css?fonts=arial-black" : { type: external, minified: true, weight: -16 }
+  js:
+    js/main.js: { weight: -100, minified: true }
+    js/slick.min.js: {weight: -110, minified: true }    
+    js/bootstrap.js: { weight: -120, minified: true }
+    js/jquery.datepicker.js: { weight: -130, minified: true}
+    js/jquery-1.11.1.min.js: {weight: -140, minified: true }
+  dependencies:
+    - core/jquery
+    - core/jquery.ui.tabs
